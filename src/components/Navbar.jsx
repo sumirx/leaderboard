@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { AppBar, Toolbar, Typography } from "@mui/material";
+import { AppBar, Link, Toolbar, Typography } from "@mui/material";
 
 const NavContainer = styled(AppBar)`
   width: 100%;
@@ -42,14 +42,16 @@ const Navbar = () => {
   return (
     <NavContainer position='static'>
       <ToolbarContent>
-        <LogoContainer>
-          <img
-            src='/assets/logo-black-transparent.png'
-            width='40rem'
-            height='auto'
-            alt='Logo'
-          />
-        </LogoContainer>
+        <Link href='https://www.vedaai.io/'>
+          <LogoContainer>
+            <img
+              src='/assets/logo-black-transparent.png'
+              width='40rem'
+              height='auto'
+              alt='Logo'
+            />
+          </LogoContainer>
+        </Link>
         <TitleContainer>
           <Typography variant='h6'>VedaVerse Leaderboard</Typography>
         </TitleContainer>
