@@ -29,6 +29,9 @@ const LeaderboardContainer = styled.div`
 const LeaderboardTable = styled(TableContainer)`
   max-width: 56.25rem;
   width: 100%;
+  @media (max-width: 600px) {
+    width: 100vw;
+  }
 `;
 
 const ProfileCell = styled(TableCell)`
