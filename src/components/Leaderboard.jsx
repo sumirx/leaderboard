@@ -17,7 +17,6 @@ import users from "../data";
 
 const Medal = styled.span`
   font-size: 1.5rem;
-  margin-right: 0.5rem;
 `;
 
 const LeaderboardContainer = styled.div`
@@ -87,7 +86,7 @@ const Leaderboard = () => {
               <TableRow key={user.id}>
                 <CenteredTableCell>
                   <Medal>{getMedal(index)}</Medal>
-                  {index + 1}
+                  {index >= 3 ? index + 1 : ""}
                 </CenteredTableCell>
                 <ProfileCell>
                   <Avatar src={user.profilePicture} />
