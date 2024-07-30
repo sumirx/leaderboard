@@ -41,14 +41,14 @@ const ProfileCell = styled(TableCell)`
 const CenteredTableHeadCell = styled(TableCell)`
   text-align: center;
   font-weight: bold;
-  @media (max-width: 37.5rem) {
+  @media (max-width: 600px) {
     font-size: 0.875rem;
   }
 `;
 
 const CenteredTableCell = styled(TableCell)`
   text-align: center;
-  @media (max-width: 37.5rem) {
+  @media (max-width: 600px) {
     font-size: 0.875rem;
   }
 `;

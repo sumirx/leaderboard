@@ -14,7 +14,7 @@ const ToolbarContent = styled(Toolbar)`
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
-  @media (max-width: 37.5rem) {
+  @media (max-width: 600px) {
     flex-direction: column;
     align-items: center;
   }
@@ -24,7 +24,7 @@ const LogoContainer = styled.div`
   flex: 1;
   display: flex;
   justify-content: flex-start;
-  @media (max-width: 37.5rem) {
+  @media (max-width: 600px) {
     width: 100%;
     justify-content: center;
   }
@@ -33,7 +33,7 @@ const LogoContainer = styled.div`
 const TitleContainer = styled.div`
   flex: 2;
   text-align: right;
-  @media (max-width: 37.5rem) {
+  @media (max-width: 600px) {
     margin-top: 0.5rem;
   }
 `;
