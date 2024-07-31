@@ -1,16 +1,15 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Leaderboard from "./components/Leaderboard";
-import GlobalStyle from "./GlobalStyle";
+import Profiles from "./components/Profiles";
 
-const App = () => {
-  return (
-    <>
-      <GlobalStyle />
-      <Navbar />
-      <Leaderboard />
-    </>
-  );
-};
+const App = () => (
+  <div className='App'>
+    <header>
+      <h1>Pioneers</h1>
+    </header>
+    <main>
+      <Profiles />
+    </main>
+  </div>
+);
 
 export default App;
