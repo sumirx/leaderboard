@@ -2,11 +2,14 @@
 
 ## Setup and Installation
 
-1. For the purpose of this project, we need the following installed on our systems:
+1. For the purpose of this project, we need the following installed on our
+   systems:
 
    - [Git](https://git-scm.com/downloads)
    - [NodeJS](https://nodejs.org/en)
-   - A text editor of your choice (we shall use [VS Code](https://code.visualstudio.com/) - but feel free to use the one of your choice)
+   - A text editor of your choice (we shall use
+     [VS Code](https://code.visualstudio.com/) - but feel free to use the one of
+     your choice)
 
    `NOTE - If you are on Windows, make sure to update your PATH`
 
@@ -32,7 +35,9 @@
 
    `The email you enter here has to be the same with which you created your GitHub account`
 
-4. Setup your GitHub account and add an SSH key. Follow [this](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) guide.
+4. Setup your GitHub account and add an SSH key. Follow
+   [this](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+   guide.
 
 5. Fork this repository
 
@@ -48,13 +53,15 @@
 
 7. Open the repository in your favorite text editor/IDE.
 
-8. Install npm dependencies of the project by running the following command in the project's root directory:
+8. Install npm dependencies of the project by running the following command in
+   the project's root directory:
 
    ```
    npm install
    ```
 
-9. Now that the dependencies are installed, you can view the working demo of the page by running:
+9. Now that the dependencies are installed, you can view the working demo of the
+   page by running:
    ```
    npm run dev
    ```
@@ -66,7 +73,8 @@
 
 `Skip Steps 1 - 3 if you followed the steps from Setup and Installation`
 
-1. Make sure to fork this repository into your GitHub account - this way you will be able to create Pull Requests to merge your code in the repository.
+1. Make sure to fork this repository into your GitHub account - this way you
+   will be able to create Pull Requests to merge your code in the repository.
 
 2. Clone the forked repository in your system
 
@@ -89,4 +97,27 @@
 
 7. Make a Pull Request
 
-**That's it!** The PR you made would be reviewed by a Team Member of ours, and based on the code you have written the PR would be requested for changes, if any, and eventually Merged!
+**That's it!** The PR you made would be reviewed by a Team Member of ours, and
+based on the code you have written the PR would be requested for changes, if
+any, and eventually Merged!
+
+## Guidelines for Contributions
+
+This guide helps you to follow the best practices to follow while writing code -
+so that you write the best way
+
+### Code Formatting
+
+Formatting your code is very important - it helps to maintain consistency across
+the project and also helps increase readability.
+
+A helpful tool for code formatting is [Prettier](https://prettier.io/). You can
+install it from the `Extensions` tab in VS Code:
+
+<img src="images/prettier.png">
+
+Look around in the repository, and find the `.prettierrc` file. This file
+contains all the necessary configurations for code formatting of this project.
+
+Now the only thing you need with prettier to format your code is to save the
+file! Prettier formats code on each file save automatically!!
