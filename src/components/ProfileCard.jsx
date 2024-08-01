@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Person, GitHub, LinkedIn } from "@mui/icons-material";
+import { Link, GitHub, LinkedIn } from "@mui/icons-material";
 import useIntersectionObserver from "../useInteractionObserver";
 
 const Card = styled.div`
@@ -25,10 +25,16 @@ const Card = styled.div`
     transform: translateY(0);
   `}
 
+  @media (max-width: 1000px) {
+    width: 80%;
+    padding: 4rem;
+  }
+
   @media (max-width: 768px) {
     margin: 1rem 0;
     flex-direction: column;
     width: 80%;
+    padding: 2rem;
   }
 `;
 
@@ -84,14 +90,14 @@ const ProfileCard = ({ user, reverse }) => {
             />
           </a>
           <a href={user.linkedin} target='_blank' rel='noopener noreferrer'>
-            <LinkedIn />
+            <LinkedIn style={{ color: "#0a66c2" }} />
           </a>
           <a href={user.github} target='_blank' rel='noopener noreferrer'>
-            <GitHub />
+            <GitHub style={{ color: "#010409" }} />
           </a>
           {user.portfolio && (
             <a href={user.portfolio} target='_blank' rel='noopener noreferrer'>
-              <Person />
+              <Link style={{ color: "black" }} />
             </a>
           )}
         </SocialLinks>
