@@ -64,7 +64,7 @@
 
 ## How to Contribute
 
-`Skip Steps 1 - n if you followed the steps from Setup and Installation`
+`Skip Steps 1 - 3 if you followed the steps from Setup and Installation`
 
 1. Make sure to fork this repository into your GitHub account - this way you will be able to create Pull Requests to merge your code in the repository.
 
