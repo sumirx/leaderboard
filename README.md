@@ -65,6 +65,13 @@
 
    <img src="images/versions-mac.jpg" />
 
+   Next, download [Visual Studio Code](https://code.visualstudio.com/) or any
+   other text editor of your choice.
+
+   After downloading Visual Studio Code from the website, opening the zip file
+   will automatically extract the application, which you can then drag to the
+   Applications folder to install.
+
    </details>
 
    <details>
