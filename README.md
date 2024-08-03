@@ -11,7 +11,15 @@
      [VS Code](https://code.visualstudio.com/) - but feel free to use the one of
      your choice)
 
-   `NOTE - If you are on Windows, make sure to update your PATH`
+   Expand a section based on the OS you are using:
+
+   <details>
+   <summary>Windows</summary>
+
+   Download the setup executables from the above links, and install the programs
+   keeping everything default.
+
+   `NOTE - Make sure to update your PATH`
 
    Check if you have correctly installed by running the following commands:
 
@@ -23,6 +31,74 @@
    You should see an output like this:
 
    <img src="images/versions.png" />
+
+   Next, download [Visual Studio Code](https://code.visualstudio.com/) or any
+   other text editor of your choice and install it by simply following the steps
+   in the setup wizard.
+
+   </details>
+
+   <details>
+   <summary>Mac</summary>
+
+   Install HomeBrew:
+
+   ```
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+
+   Run the following commands to install Git and NodeJS on Mac:
+
+   ```
+   brew install git
+   brew install node
+   ```
+
+   Check if you have correctly installed by running the following commands:
+
+   ```
+   node --version
+   git --version
+   ```
+
+   You should see an output like this:
+
+   <img src="images/versions-mac.jpg" />
+
+   </details>
+
+   <details>
+   <summary>Linux</summary>
+
+   Run the following commands to install Git and NodeJS on Ubuntu:
+
+   ```
+   sudo apt install git
+   sudo apt install nodejs
+   ```
+
+   `NOTE - Make sure to use the correct package manager of your Linux Distro`
+
+   Check if you have correctly installed by running the following commands:
+
+   ```
+   node --version
+   git --version
+   ```
+
+   You should see an output like this:
+
+   <img src="images/versions-linux.png" />
+
+   Finally, install VS Code on the system using this command(Ubuntu):
+
+   ```
+   sudo snap install code --classic
+   ```
+
+   `Make sure to refer installation guide on your distro to find the correct install command`
+
+   </details>
 
 2. Next, go ahead and create a [GitHub](https://github.com/) account.
 
@@ -71,7 +147,7 @@
 
 ## How to Contribute
 
-`Skip Steps 1 - 3 if you followed the steps from Setup and Installation`
+`Skip steps 1 - 3 if you followed all the steps from Setup and Installation`
 
 1. Make sure to fork this repository into your GitHub account - this way you
    will be able to create Pull Requests to merge your code in the repository.
@@ -121,3 +197,12 @@ contains all the necessary configurations for code formatting of this project.
 
 Now the only thing you need with prettier to format your code is to save the
 file! Prettier formats code on each file save automatically!!
+
+You can refer the following documents to know more about guidelines on how to
+write better code:
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide)
+- [FreeCodeCamp's Clean Code Guide](https://www.freecodecamp.org/news/how-to-write-clean-code/)
+- [GeeksForGeeks' Guide](https://www.geeksforgeeks.org/coding-standards-and-guidelines/)
+
+Happy Learning!
