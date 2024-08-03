@@ -83,11 +83,7 @@ const ProfileCard = ({ user, reverse }) => {
         <p className='testimonial'>{user.testimonial}</p>
         <SocialLinks>
           <a href={user.vedaVerse} target='_blank' rel='noopener noreferrer'>
-            <img
-              src='/assets/logo-black-transparent.png'
-              height={25}
-              alt='VedaVerse'
-            />
+            <img src='/assets/icon-01.svg' height={25} alt='VedaVerse' />
           </a>
           <a href={user.linkedin} target='_blank' rel='noopener noreferrer'>
             <LinkedIn style={{ color: "#0a66c2" }} />

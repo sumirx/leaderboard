@@ -27,11 +27,18 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   @media (max-width: 768px) {
     padding: 0;
     width: 90%;
   }
+}
+
+main .para {
+  width: 60%;
+  text-align: justify;
+  font-size: 1.5rem;
 }
 
 .profiles {
@@ -44,4 +51,8 @@ main {
 
 .testimonial {
   font-weight: bold;
+}
+
+.social-link:hover {
+  color: black;
 }
