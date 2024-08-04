@@ -13,7 +13,7 @@ const Card = styled.div`
   width: 60%;
   background: #f9f9f9;
   border-radius: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #bfc7c7;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
@@ -51,6 +51,7 @@ const Image = styled.img`
 
 const Bio = styled.div`
   max-width: 60%;
+  text-align: left;
 
   @media (max-width: 768px) {
     max-width: 100%;
@@ -78,12 +79,12 @@ const ProfileCard = ({ user, reverse }) => {
     <Card ref={ref} reverse={reverse} isVisible={isVisible}>
       <Image src={user.profilePicture} alt={`${user.name}'s profile`} />
       <Bio>
-        <h2>{user.name}</h2>
+        <h2 style={{ color: "#274c78" }}>{user.name}</h2>
         <p>{user.bio}</p>
         <p className='testimonial'>{user.testimonial}</p>
         <SocialLinks>
           <a href={user.vedaVerse} target='_blank' rel='noopener noreferrer'>
-            <img src='/assets/icon-01.svg' height={25} alt='VedaVerse' />
+            <img src='/assets/icon.svg' height={25} alt='VedaVerse' />
           </a>
           <a href={user.linkedin} target='_blank' rel='noopener noreferrer'>
             <LinkedIn style={{ color: "#0a66c2" }} />
