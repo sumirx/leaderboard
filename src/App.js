@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Profiles from "./components/Profiles";
 import styled, { keyframes, css } from "styled-components";
-import useIntersectionObserver from "./useInteractionObserver";
+import useIntersectionObserver from "./useIntersectionObserver";
 import { Link as LinkScroll } from "react-scroll";
 import Navbar from "./components/Navbar";
 

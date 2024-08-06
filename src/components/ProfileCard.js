@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link, GitHub, LinkedIn } from "@mui/icons-material";
-import useIntersectionObserver from "../useInteractionObserver";
+import useIntersectionObserver from "../useIntersectionObserver";
 
 const Card = styled.div`
   display: flex;
