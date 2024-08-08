@@ -129,10 +129,10 @@
 6. Clone the forked repository with this command:
 
    ```
-   git clone ...
+   git clone git@github.com:<your-username>/leaderboard.git
    ```
 
-   <!-- TODO: Add clone command -->
+   `Make sure to replace <your-username> with your GitHub Username`
 
 7. Open the repository in your favorite text editor/IDE.
 
