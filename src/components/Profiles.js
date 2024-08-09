@@ -15,7 +15,7 @@ const users = [
   },
   {
     name: "Anannya Hiteshi",
-    bio: "Intern @VedaVerse, Computer Engineering Undergraduate @ZHCET",
+    bio: "Computer Engineering Undergraduate @ZHCET",
     testimonial: "",
     profilePicture:
       "https://avatars.githubusercontent.com/u/118623102?s=96&v=4",
