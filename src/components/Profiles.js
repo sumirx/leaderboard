@@ -13,6 +13,17 @@ const users = [
     github: "https://github.com/SumirVats2003",
     portfolio: "https://sumirvats.netlify.app",
   },
+  {
+    name: "Ananya Pappula",
+    bio: "CVR Engineering College Student",
+    testimonial: "",
+    profilePicture:
+      "https://media.licdn.com/dms/image/D5603AQGpVgbOdnQW7Q/profile-displayphoto-shrink_400_400/0/1701854059151?e=1728518400&v=beta&t=sYJyZ0PtKUtJx_ErmXKsjxeP50G_IVR5ZouWzMkMf_w",
+    vedaVerse: "https://vedaverse.com/user1",
+    linkedin: "https://www.linkedin.com/in/ananya-pappula-1735b9288/",
+    github: "https://github.com/AnanyaPappula",
+    portfolio: "https://sumirvats.netlify.app",
+  },
 ];
 
 const Profiles = () => (
