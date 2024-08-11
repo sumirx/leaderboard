@@ -13,6 +13,18 @@ const users = [
     github: "https://github.com/SumirVats2003",
     portfolio: "https://sumirvats.netlify.app",
   },
+ 
+  {
+    name: "Dhruv S Shah",
+    bio: "CVR Engineering College Student",
+    testimonial: "",
+    profilePicture:
+      "https://avatars.githubusercontent.com/u/67406262?v=4",
+    vedaVerse: "https://vedaverse.com/user1",
+    linkedin: "https://www.linkedin.com/in/ananya-pappula-1735b9288/",
+    github: "https://github.com/AnanyaPappula",
+    portfolio: "https://sumirvats.netlify.app",
+  },
 ];
 
 const Profiles = () => (
@@ -23,4 +35,4 @@ const Profiles = () => (
   </div>
 );
 
-export default Profiles;
+export default Profiles;
