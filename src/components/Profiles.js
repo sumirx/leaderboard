@@ -15,14 +15,13 @@ const users = [
   },
   {
     name: "Ananya Pappula",
-    bio: "CVR Engineering College Student",
+    bio: "Intern @VedaVerse, Computer Science and Engineering Undergraduate @CVRCE",
     testimonial: "",
-    profilePicture:
-      "https://media.licdn.com/dms/image/D5603AQGpVgbOdnQW7Q/profile-displayphoto-shrink_400_400/0/1701854059151?e=1728518400&v=beta&t=sYJyZ0PtKUtJx_ErmXKsjxeP50G_IVR5ZouWzMkMf_w",
-    vedaVerse: "https://vedaverse.com/user1",
+    profilePicture: "https://i.ibb.co/kG7XNtR/mypicprof.jpg",
+    vedaVerse: "https://vedaverse.com/ananya",
     linkedin: "https://www.linkedin.com/in/ananya-pappula-1735b9288/",
-    github: "https://github.com/AnanyaPappula",
-    portfolio: "https://sumirvats.netlify.app",
+    github: "https://github.com/Ananya54321",
+    portfolio: "https://ananyapappula.vercel.app/",
   },
 ];
 
