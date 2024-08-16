@@ -18,7 +18,7 @@ const users = [
     bio: "Computer Engineering Undergraduate @ZHCET",
     testimonial: "",
     profilePicture:
-      "https://avatars.githubusercontent.com/u/118623102?s=96&v=4",
+      "https://i.ibb.co/YXc8hJs/profilepic.jpg",
     vedaVerse: "https://vedaverse.com/user1",
     linkedin: "www.linkedin.com/in/anannya-hiteshi",
     github: "https://github.com/Anannya410",
