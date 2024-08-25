@@ -13,6 +13,16 @@ const users = [
     github: "https://github.com/SumirVats2003",
     portfolio: "https://sumirvats.netlify.app",
   },
+  {
+    name: "Ananya Pappula",
+    bio: "Intern @VedaVerse, Computer Science and Engineering Undergraduate @CVRCE",
+    testimonial: "",
+    profilePicture: "https://i.ibb.co/kG7XNtR/mypicprof.jpg",
+    vedaVerse: "https://vedaverse.com/ananya",
+    linkedin: "https://www.linkedin.com/in/ananya-pappula-1735b9288/",
+    github: "https://github.com/Ananya54321",
+    portfolio: "https://ananyapappula.vercel.app/",
+  },
 ];
 
 const Profiles = () => (
