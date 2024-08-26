@@ -23,6 +23,16 @@ const users = [
     github: "https://github.com/Ananya54321",
     portfolio: "https://ananyapappula.vercel.app/",
   },
+  {
+    name: "Mani Yadla",
+    bio: "Intern @RiveKit, Computer Science and Engineering Undergraduate @CVRCE",
+    testimonial: "",
+    profilePicture: "https://i.ibb.co/wscS1f6/Profile-Image.jpg",
+    vedaVerse: "https://vedaverse.com/mani",
+    linkedin: "www.linkedin.com/in/yadla-mani/",
+    github: "https://github.com/YadlaMani",
+    portfolio: "https://maniyadla.vercel.app/",
+  },
 ];
 
 const Profiles = () => (
