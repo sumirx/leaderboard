@@ -43,6 +43,17 @@ const users = [
     github: "https://github.com/Anannya410",
     portfolio: "",
   },
+  {
+    name: "Dhruv S Shah",
+    bio: "CVR Engineering College Student",
+    testimonial: "",
+    profilePicture:
+      "https://avatars.githubusercontent.com/u/67406262?v=4",
+    vedaVerse: "",
+    linkedin: "https://www.linkedin.com/in/dhruv-s-shah-352134203/",
+    github: "https://github.com/S-Dhruv",
+    portfolio: "",
+  },
 ];
 
 const Profiles = () => (
